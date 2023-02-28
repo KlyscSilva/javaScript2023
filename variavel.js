@@ -20,7 +20,7 @@
 // - Não se usar mais VAR
 // - Não se declara mais de uma variavel para uma const, não pode ser alterado após declarado
 
-var number1 = 1 // - Não se usar mais VAR
+var number1 = 1 // - Não se usa mais VAR
 let number2 = 2
 const number3 = 3
  
