@@ -6,9 +6,8 @@ Porém, os dois nomes devem estar em um Array. Ex: const array = ["João", "Mari
 */
 
 
-let peopleArray = ["Joao", "Maria"]
-const result = peopleArray[0] == peopleArray[1]
-
+let nameS = ["Joao", "Maria"]
+const result = nameS[0] == nameS[1]
 
 console.log(result);
 
