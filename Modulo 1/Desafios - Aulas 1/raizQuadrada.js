@@ -7,4 +7,4 @@
 let number = 25
 const result = Math.sqrt(number) * 10 / 33
 
-console.log(result);
+console.log(result); 
