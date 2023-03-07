@@ -43,4 +43,4 @@ const calculate = (numberOne,numberTwo,operation) => {
 
 }
 
-console.log(calculate(10,20,""));
+console.log(calculate(10,20,"/"));
