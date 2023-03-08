@@ -55,3 +55,5 @@ console.log(people[2].age);
 
 console.log(people[0].name);
 console.log(people[0].country);
+
+conso;

@@ -46,7 +46,7 @@ const num = numberOne => {
 
 
 
-    for(i = 0; i < numberOne; i++)
+    for(i = 1; i < 10; i++)
     
     {
     
