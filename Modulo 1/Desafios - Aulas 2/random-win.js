@@ -8,7 +8,7 @@ Em caso de ter ganhado, mostra o prêmio, se não ganhou, mostra outra mensagem.
 */
 
 
-const letWin = Math.floor(Math.random() * 10) + 1;
+const letWin = Math.floor(Math.random(10) * 20) + 1;
 console.log(`${letWin}, numero sorteado,`);
 
 const letWinPunter = Math.floor(Math.random() * 10) + 1;
@@ -16,7 +16,7 @@ console.log(`${letWinPunter}, número do apostador`);
 
 
 const result = letWin === letWinPunter
-
+ 
 
 switch (result) {         
 
