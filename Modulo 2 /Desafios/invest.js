@@ -21,15 +21,15 @@ Cálculo taxa = juros(Valor atual do investimento - Valor inicial investido) / V
 const juros = () => {
 
 
-    const newInvest = 800;
-    const atualInvest = 1000; // montante
-    const newTempInvest = 3;
+    const newInvest = 1000;
+    const atualInvest = 1200; // montante
+    const newTempInvest = 10;
 
 
-    const juros = atualInvest - newInvest
-    const taxaJuros = juros / newInvest * newTempInvest
+    const juros = (atualInvest - newInvest) / (newInvest * newTempInvest)
+    
 
-    return console.log((taxaJuros * 100).toFixed() + "%");
+    return console.log((juros * 100).toFixed(2) + "%");
 
 
 }

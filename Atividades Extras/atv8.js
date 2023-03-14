@@ -26,4 +26,4 @@ const medidas = (number) => {
 
 }
 
-medidas(185.7)
+medidas(1000)

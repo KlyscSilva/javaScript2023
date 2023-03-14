@@ -305,14 +305,6 @@ return
     }
 
 
-
-    
-
-
-// CRIAR UMA VARIAVEL EM ARRAY COM OS DESCONTOS DISPONIVEIS
-    
-
-
     // Variaveis para inserir dentro da função buy()
     nameClient = "Matheus";
     const totalPurchase = 400;
@@ -323,13 +315,9 @@ return
     buy(nameClient,totalPurchase,firstPurchase,buyCash)
     
 
-
-
     /*
     
-
-
-
+    
 
 
     */

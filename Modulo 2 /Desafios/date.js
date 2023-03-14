@@ -38,3 +38,13 @@ const year = () => {
 }
 
 console.log(year());
+
+
+const horas = () => {
+
+    let houra = new Date().toLocaleTimeString("pt-BR") // me retorna a hora local
+
+    console.log(houra);
+}
+
+horas()
