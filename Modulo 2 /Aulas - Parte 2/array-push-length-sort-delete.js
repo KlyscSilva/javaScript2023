@@ -34,9 +34,12 @@ const students = ['Jaca', 'Manga', 'Evegol', 'Puyol', 'Leon', 'Ashley']
 
 
 
-//students.splice(0,0,'Matheus')escolho a posição apartir do indice, indico quantos elementos quero retirar e informo o valor que quero acrescentar na determinada posição)
+//students.slice(0,0,'Matheus')escolho a posição apartir do indice, indico quantos elementos quero retirar e informo o valor que quero acrescentar na determinada posição)
 
 
-const newStudents = students.slice(1,3)
+const newStudents = students.slice(0,3) // (começo,fim) -> para determinar onde meu array irá parar.
+
+console.log(students.pop()); // retorna somente o ultimo elemento do array
+console.log(students.shift()); // retorna o primeiro elemento do array
 
 console.log(newStudents);
