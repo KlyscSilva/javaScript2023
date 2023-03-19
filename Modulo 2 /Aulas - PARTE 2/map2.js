@@ -17,17 +17,17 @@ Obs: Map é bom para trabalhar em camadas de aplicações
 */
 
 
-const numbers = [2,3,4,5,6]
+const numbers = [1,2,3,4,5,6]
 
-const double = numbers => numbers * 4 // criei uma função com parametro numbers
+const double = numbers => numbers % 2 === 1 // criei uma função com parametro numbers
 const sum = numbers => numbers + 10
 const min = numbers => numbers - 5
 const toReais = numbers => `R$${numbers.toFixed(2)}` // criando uma função e retornando com um template string, outra habilidade do map
 
 
-const newArray2 = numbers.map(double).map(sum).map(min).map(toReais)
+const newArray2 = numbers
 
-console.log(newArray2);
+console.log(numbers.push(numbers));
 
 
 // exemplo real de uso de MAP

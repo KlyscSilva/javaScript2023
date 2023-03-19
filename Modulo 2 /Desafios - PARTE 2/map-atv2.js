@@ -38,20 +38,22 @@ const students = [
 ];
 
 
-const studentsAprovved = students.map((students) => {
+const approvedStudents = students.map((students) => {
 
+    let passedTest = students.testValue >= 7  ? "Aprovado(a)" : "Reprovado(a)"
 
-    let passed = studentsAprovved >=7 ? "aprovado":"repov"
+   const approvedStudents = {
 
+        name: students.name,
+        testValue: students.testValue,
+        finalResult: students = passedTest
+    }
+
+    return approvedStudents
+}
+)
         
 
-}
-  
 
 
-
-   
-
-)
-
-console.log(studentsAprovved);
+console.log(approvedStudents);
