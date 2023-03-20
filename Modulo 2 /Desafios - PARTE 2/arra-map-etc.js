@@ -178,9 +178,8 @@ uma única string que contém uma lista exatamente como o exemplo acima.
 */
 
 
-let newString = ` 
-- Nome 1
-- Nome 2
-- Nome 3`
+let newString = " - Nome 1 \n - Nome 2 \n - Nome 3 \n"
 
 console.log(newString);
+
+

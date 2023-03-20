@@ -106,9 +106,10 @@ const researchPopulation = () => {
     // maior salario
 
         
-    const highSal = population.reduce((maior,atual) =>{
+    const highSal = population.reduce((acc,current) =>{
 
-        return (atual.salario > maior.salario) ? atual : maior;
+        return (acc.salario  > current.salario) ? acc : current;
+        
     
 
     });
