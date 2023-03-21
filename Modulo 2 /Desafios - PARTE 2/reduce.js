@@ -36,14 +36,11 @@ const companies = [
     {name: "Apple", marketValue: 845, CEO: "Tim Cook", foundeOn: 1976},
 ]
 
-//let soma = companies.reduce((acc, current) => acc + current.marketValue, 0)
-//console.log(soma)
 
-let sum = companies.reduce((acc,current)=> {
+const soma = companies.reduce((acc,current) => acc + current.marketValue,0)
 
-    return acc + current.marketValue,0 = marketValue
+console.log(soma);
 
-
-})
+const sum = companies.filter((name) => name.foundeOn > 2000 )
 
 console.log(sum);

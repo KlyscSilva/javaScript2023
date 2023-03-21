@@ -20,7 +20,8 @@ shift => remove o primeiro elemento do array
 
 const students = ['Jaca', 'Manga', 'Evegol', 'Puyol', 'Leon', 'Ashley']
 
-//students.push ('Alfredo') // adicionar um valor pro array
+students.push ('Alfredo') // adicionar um valor pro array
+console.log(students);
 //students.push ('2k') // adicionar um valor pro array
 //students.sort() // array em ordem alfabetica
 
