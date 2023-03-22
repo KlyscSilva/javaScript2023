@@ -306,6 +306,7 @@ return
 
 
     // Variaveis para inserir dentro da função buy()
+
     nameClient = "Matheus";
     const totalPurchase = 400;
     let firstPurchase = false;

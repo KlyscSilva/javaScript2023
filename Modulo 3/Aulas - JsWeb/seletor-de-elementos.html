@@ -1,0 +1,37 @@
+<!--
+
+Selecionando Elementos:
+
+- getElementById() <===> Trás apenas um elemento (element) do html
+- getElementByClassName() <===> Trás diversos elementos (HTML Collection)
+- getElementByTagName() <===> Trás diveros elementos (HTML Collection)
+- getElementsByName <===> Trás os elementos com o nome selecionado(Nodelist)
+
+
+- querySelector <===> Trás apenas um elemento, o primeiro que encontrar (element) um elemento especifico
+- querySelectorAll <===> Trás TODOS os elementos que encontrar (NodeList)
+
+
+- NodeList x HTML Colection
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+. = class
+# = id
+elemento pode ser tags,ids,classes
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+O querySelectorAll é bastante útil quando precisamos 
+selecionar vários elementos
+ de uma vez e realizar operações em todos eles. 
+ É importante lembrar que ele retorna uma lista de elementos, 
+ não um único elemento, então devemos usar uma estrutura de loop 
+ para percorrer cada um dos elementos retornados.
+
+ var elements = document.querySelectorAll('div.my-class');
+Por exemplo, se quisermos selecionar todos os elementos div com a classe my-class,
+ podemos usar o seguinte código:
+
+ podemos perrocer com estrutra de forEach
+
+
+>

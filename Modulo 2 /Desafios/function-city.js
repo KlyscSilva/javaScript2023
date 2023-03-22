@@ -6,7 +6,6 @@ A prefeitura deseja saber:
  - média do salário da população; 
  - média do número de filhos; 
  - maior salário;
- - percentual de pessoas com salário até R$100,00
  - O final da leitura de dados se dará com a entrada de um salário negativo. 
  
   *Faça isso usando uma função!*
