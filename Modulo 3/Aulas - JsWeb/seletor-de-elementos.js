@@ -16,6 +16,6 @@
 // que posso armanzenar numa variavel
 // Resumindo posso pegar os atributos e não apenas o elemento
 
-const element = document.querySelector("input")
+//const element = document.querySelector("input")
 
-console.log(element.value); // posso verificar o que está dentro do value ou de qualquer outro atributo
+//console.log(element.value); // posso verificar o que está dentro do value ou de qualquer outro atributo
