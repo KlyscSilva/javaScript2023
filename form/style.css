@@ -7,11 +7,62 @@
 }
 
 body{
-    background-image: url(./Modulo\ 3/background-image);
+    background-image: url(./html.png);
 }
 
 input {
 
-    caret-color: #00ffff;
+    caret-color: #ff0000;
+    
+}
+
+h1{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 20px;
+
+}
+
+.form-acess{   
+
+font-size: 18px;
+width: 100px;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+input{
+    margin: 5px;
+    width: 100wh;
+    position: relative;
+    top: 240px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+button{
+
+    position: relative;
+    top: 250px;
+    left: 60px;
+    align-items: center;
+    padding: 7px 13.5781px 7px 13px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #41941b;
+
+}
+
+button:hover{
+    color: #070707;
+    background-color: #06f832fa;
     
 }
